@@ -1,13 +1,10 @@
 package com.roelproject.RoelHotel.langchain4j;
 
+import com.roelproject.RoelHotel.dto.BookingDTO;
 import com.roelproject.RoelHotel.dto.Response;
-import dev.langchain4j.agent.tool.P;
 import dev.langchain4j.agent.tool.Tool;
 import org.springframework.stereotype.Component;
 import com.roelproject.RoelHotel.service.impl.BookingService;
-import com.roelproject.RoelHotel.service.impl.RoomService;
-
-import java.time.LocalDate;
 
 @Component
 public class LangChain4jTools {
@@ -22,8 +19,8 @@ public class LangChain4jTools {
             Retrieves information about an existing booking,
             such as the check in date, check out date, total number of guest, confirmation code, room type, room price.
             """)
-    public Response findBookingByConfirmationCode(String confirmationCode) {
-        return service.findBookingByConfirmationCode(confirmationCode);
+    public BookingDTO findBookingByConfirmationCode(String confirmationCode) {
+        return service.findBookingByConfirmationCode(confirmationCode).getBooking();
     }
 
    /* @Tool("""
@@ -42,8 +39,8 @@ public class LangChain4jTools {
     }*/
 
     @Tool
-    public Response cancelBooking(Long bookingId) {
-        return service.cancelBooking(bookingId);
+    public String cancelBooking(Long bookingId) {
+        return service.cancelBooking(bookingId).getMessage();
     }
 
 }
