@@ -38,7 +38,9 @@ public class LangChain4jTools {
         service.changeBooking(bookingNumber, firstName, lastName, newFlightDate, newDepartureAirport, newArrivalAirport);
     }*/
 
-    @Tool
+    @Tool("""
+            Cancel an existing booking
+            """)
     public String cancelBooking(Long bookingId) {
         return service.cancelBooking(bookingId).getMessage();
     }
