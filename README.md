@@ -2,9 +2,13 @@
 
 This is the backend part of a fullstack hotel management system with AI assistant that can interact with booking data. The main purpose is for educational/experimental to show case the usage of Langchain4J in interacting with java functions through tooling capabilities.
 
-Tech stack: Java, Spring Boot, MySQL, AWS S3 bucket, JWT token, Langchain4j, Open AI API
+**Tech stack**
 
-feature: 
+Frontend: React, Javascript, Typescript
+
+Backend: Java, Spring Boot, MySQL, AWS S3 bucket, JWT token, Langchain4j, Open AI API
+
+**feature**
 
 common: login, register
 
