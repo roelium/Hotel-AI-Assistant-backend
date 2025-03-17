@@ -12,7 +12,7 @@ Backend: Java, Spring Boot, MySQL, AWS S3 bucket, JWT token, Langchain4j, Open A
 
 common: login, register, find available rooms for certain dates
 
-guest: book a room, cancel a booking, find a booking, view/edit profile
+guest: book a room, view bookings, cancel a booking, find a booking, view/edit profile
 
 admin: add/edit room, manage bookings 
 
