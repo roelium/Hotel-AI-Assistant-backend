@@ -1,4 +1,4 @@
-**Roel Hotel - backend**
+**Roel Hotel - AI Assistant - backend**
 
 This is the backend part of a fullstack simple hotel booking management system with AI assistant that can interact with booking data. The main purpose is for educational/experimental to show case the usage of Langchain4J in interacting with java functions through LLM tooling capabilities.
 
