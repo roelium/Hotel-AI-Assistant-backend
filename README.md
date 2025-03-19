@@ -1,12 +1,12 @@
 # Roel Hotel - AI Assistant - backend
 
-The backend part of a fullstack simple hotel booking management system with AI assistant that can interact with booking data. For educational/experimental purpose to show case the usage of Langchain4J in interacting with java functions through its LLM tooling capabilities.
+The backend part of a fullstack simple hotel booking management system with AI assistant that can interact with booking data. For educational/experimental purpose to show case the usage of Langchain4J in interacting with java functions through its AI LLM tooling capabilities.
 
 ## Tech stack
 
 Frontend: React, Javascript, Typescript
 
-Backend: Java, Spring Boot, MySQL, AWS S3 bucket, JWT token, Langchain4j, Open AI API
+Backend: Java, Spring Boot, MySQL, Maven, AWS S3 bucket, JWT token, Langchain4j, Open AI API
 
 ## Feature
 
@@ -25,7 +25,7 @@ The AI asistant currently can find and cancel a booking for a guest.
    - A local or remote MySQL connection. Create a new database instance (without tables).
    - Create or use an existing AWS S3's access key, secret key and a bucket.
    - Create or use existing Open AI Key on langchain4j.open-ai.chat-model.api-key and langchain4j.open-ai.embedding-model.api-key. You can use "demo" as key for free provided by LangChain4j but i haven't try.
-3. Run the RoelHotelApplication with Maven.
+3. Run the RoelHotelApplication with Maven (`./mvnw spring-boot:run`).
 4. Use API tool like Postman to try the API endpoints. The AI chat functionality required an authorized bearer token (users need to be registered and loggedin first)
    ````
    ```
