@@ -98,6 +98,8 @@ The AI asistant currently can find and cancel a booking for a guest.
 3. Define LangChain4j configurations like chatMemoryProvider (important so that the asistant can remember previous messages), embeddingStore, contentRetriever (file: LangChain4jConfig.java)
 4. Define LangChain4j tools. This is where the LangChain4J can find the available tools/functions to be called based on chat interaction. (file: LangChain4jTools.java)
 5. Publish the API endpoint for sending the chat message (file: ChatController.java)
+6. Optional: to give additional context to the AI service from a document or file, e.g. term of service, we can use document ingestor implementation (files: DocumentationIngestor.java & terms-of-service.txt).
+   
 
 
 
