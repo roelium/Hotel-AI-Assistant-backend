@@ -32,8 +32,8 @@ The AI asistant currently can find and cancel a booking for a guest.
    endpoint: POST localhost:4040/auth/register
    body:
    {
-    "email":"guest@roelhotel.com",
-    "password":"guest",
+    "email":"[an email address]",
+    "password":"[password]",
     "phoneNumber":"12345678",
     "name":"Guest 1",
     "role":"USER"
@@ -42,8 +42,8 @@ The AI asistant currently can find and cancel a booking for a guest.
    endpoint: POST localhost:4040/auth/login
    body:
    {
-    "email":"guest@roelhotel.com",
-    "password":"guest"
+    "email":"[an email address]",
+    "password":"[password]"
    }
 
    endpoint: GET localhost:4040/chat?chatid=1&message="could you please get booking details of 9AZ951P9DQ".
