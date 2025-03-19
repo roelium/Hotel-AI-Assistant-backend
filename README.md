@@ -50,7 +50,7 @@ The AI asistant currently can find and cancel a booking for a guest.
    Auth type: bearer token from the login step
   ```
   ````
-## Important Parts for the LangChain4J
+## Important Parts for using the LangChain4J
 
 1. Declare dependencies (file: pom.xml)
    ```xml
