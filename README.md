@@ -103,7 +103,7 @@ The AI asistant currently can find and cancel a booking for a guest.
 
 
 
-## References and Inpirations 
+## References and Inspirations 
 
 1. https://docs.langchain4j.dev/tutorials/spring-boot-integration/<br/>
 2. https://github.com/marcushellberg<br/>
