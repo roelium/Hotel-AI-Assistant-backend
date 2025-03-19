@@ -1,14 +1,14 @@
-#Roel Hotel - AI Assistant - backend
+# Roel Hotel - AI Assistant - backend
 
 The backend part of a fullstack simple hotel booking management system with AI assistant that can interact with booking data. For educational/experimental purpose to show case the usage of Langchain4J in interacting with java functions through its LLM tooling capabilities.
 
-##**Tech stack**
+## Tech stack
 
 Frontend: React, Javascript, Typescript
 
 Backend: Java, Spring Boot, MySQL, AWS S3 bucket, JWT token, Langchain4j, Open AI API
 
-##**feature**
+## Feature
 
 common: login, register, find available rooms for certain dates
 
@@ -18,7 +18,7 @@ admin: add/edit room, manage bookings
 
 The AI asistant currently can find and cancel a booking for a guest. 
 
-##**Steps to Run the Backend**
+## Steps to Run the Backend
 
 1. Clone the project
 2. Configure the application.properties file with:
@@ -50,7 +50,7 @@ The AI asistant currently can find and cancel a booking for a guest.
    Auth type: bearer token from the login step
   ```
   ````
-##**Important Parts for the LangChain4J**
+## Important Parts for the LangChain4J
 
 1. Declare dependencies (file: pom.xml)
    ```xml
@@ -101,13 +101,13 @@ The AI asistant currently can find and cancel a booking for a guest.
 
 
 
-##**References and Inpirations**
+## References and Inpirations 
 
 1. https://docs.langchain4j.dev/tutorials/spring-boot-integration/<br/>
 2. https://github.com/marcushellberg<br/>
 3. https://github.com/achalise<br/>
 4. https://github.com/phegondev<br/>
 
-**Screenshots**
+## Screenshots
 
 ![Screenshot 2025-03-17 at 12 40 26](https://github.com/user-attachments/assets/050f43b8-cda3-437b-9f41-0e53dfe9814c)
