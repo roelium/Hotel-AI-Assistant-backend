@@ -26,7 +26,7 @@ The AI asistant currently can find and cancel a booking for a guest.
    - Create a new or use an existing AWS S3's access key, secret key and a bucket.
    - Createa new or use an existing Open AI Key on langchain4j.open-ai.chat-model.api-key and langchain4j.open-ai.embedding-model.api-key. You can use "demo" as key for free provided by LangChain4j but i haven't try.
 3. Run the RoelHotelApplication with Maven (`./mvnw spring-boot:run`).
-4. Use API tool like Postman to try the API endpoints. The AI chat functionality required an authorized bearer token (users need to be registered and loggedin first)
+4. Use API tool like Postman to try the API endpoints. The AI chat functionality requires an authorized bearer token (users need to be registered and loggedin first)
    ````
    ```
    endpoint: POST localhost:4040/auth/register
