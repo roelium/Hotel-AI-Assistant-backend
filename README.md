@@ -6,7 +6,7 @@ The backend part of a fullstack simple hotel booking management system with AI a
 Medium article for more context: [https://medium.com/@syahrulanw/integrating-an-ai-assistant-with-rag-using-langchain4j-in-a-spring-boot-react-js-17fdc76676b4](https://medium.com/@syahrulanw/integrating-an-ai-assistant-with-rag-using-langchain4j-in-a-spring-boot-react-js-17fdc76676b4)
 
 Online demo: 
-backend base URI: http://13.51.168.198:4040
+backend base URI: http://13.51.168.198:4040 <br/>
 frontend: http://roelhotel.s3-website.eu-north-1.amazonaws.com
 
 ## Tech stack
